@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+img{
+   height: 90vh;
+ 
+  width: 100%;
+}
+.slider-cont{
+    width: 100%;
+    position: relative;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: lightgrey;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.right{
+    right: 10px;
+}
+.left{
+    left: 10px;
+}
+.cpation{
+    bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(83, 81, 81, 0.486);
+    text-align: center;
+    padding: 15px 0;
+}
+.slider{
+    display: none;
+}
